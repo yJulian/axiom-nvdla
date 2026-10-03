@@ -1,0 +1,6 @@
+/build/
+/.venv/
+/dut/common/sim_build/
+**/__pycache__/
+**/results.xml
+trace_hart_*.dasm

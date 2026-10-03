@@ -1,0 +1,9 @@
+[submodule "ext/axiom"]
+	path = ext/axiom
+	url = https://github.com/yJulian/axiom.git
+[submodule "ext/cva6"]
+	path = ext/cva6
+	url = https://github.com/openhwgroup/cva6.git
+[submodule "ext/nvdla"]
+	path = ext/nvdla
+	url = https://github.com/nvdla/hw.git

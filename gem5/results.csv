@@ -1,0 +1,7 @@
+mode,latency_ns,rtl_cycles,driver_polls,gem5_ticks
+loose,10,1225,10,15956000
+tight,10,756,6,14584000
+loose,50,1945,17,17780000
+tight,50,874,7,15736000
+loose,100,2945,26,20088000
+tight,100,1019,9,17722000

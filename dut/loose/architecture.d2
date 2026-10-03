@@ -1,0 +1,23 @@
+direction: right
+
+classes: {
+  block: {
+    style: {
+      fill: "#F4F6F8"
+      stroke: "#263746"
+      stroke-width: 2
+      border-radius: 0
+      font-size: 24
+    }
+  }
+}
+
+cpu: "CVA6\nCore + L1" {class: block}
+accelerator: "NVDLA\nControl + SDP + DMA" {class: block}
+fabric: AXI crossbar {class: block}
+memory: Shared memory {class: block}
+
+cpu -> accelerator: MMIO via AXI / CSB
+cpu -> fabric: AXI
+accelerator -> fabric: AXI DMA
+fabric -> memory: AXI
